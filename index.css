@@ -17,6 +17,9 @@ a:hover {
 }
 body {
   font-family: "Bahnschrift";
+  background-color: #00307d;
+  color: white;
+  text-align: center;
 }
 .footer {
   font-family: "Bahnschrift SemiCondensed";
