@@ -9,7 +9,6 @@ a:visited {
 
 a:hover {
   color: yellow;
-  text-transform: uppercase;
 }
 
 @font-face {
@@ -29,4 +28,26 @@ body {
 }
 .paragraph {
   font-family: "Bahnschrift Regular";
+  color: white;
+  text-decoration: none;
+}
+
+
+.flex-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.flex-child {
+  background-color: #0025ff;
+  border-radius: 25px;
+  padding: 0.5rem;
+  width: 30%;
+  height: 50%;
+}
+
+.flex-child p {
+  font-size: larger;
 }
